@@ -26,7 +26,7 @@ state = { lat: null, errorMessage: '' }
             return <SeasonDisplay lat={this.state.lat}/>
         }
 
-        return <Spinner />
+        return <Spinner message="Please Accept Loaction Request"/>
         
     }
 
